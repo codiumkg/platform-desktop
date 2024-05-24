@@ -1,5 +1,5 @@
 {
-  "name": "platform-desktop",
+  "name": "codium-platform",
   "version": "1.0.0",
   "description": "Codium platform for students",
   "main": "./out/main/index.js",
