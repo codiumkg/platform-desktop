@@ -18,6 +18,10 @@ nsis:
   shortcutName: ${productName}
   uninstallDisplayName: ${productName}
   createDesktopShortcut: always
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/icon.ico
+  installerHeaderIcon: build/icon.ico
+  installerLanguages: ru_RU
 mac:
   entitlementsInherit: build/entitlements.mac.plist
   extendInfo:
@@ -35,6 +39,7 @@ linux:
     - deb
   maintainer: codiumdev.com
   category: Utility
+  icon: build/icon.png
 appImage:
   artifactName: ${name}-${version}.${ext}
 npmRebuild: false
